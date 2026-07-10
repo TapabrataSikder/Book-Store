@@ -1,0 +1,134 @@
+{
+  "theme": "LIGHT",
+  "archetype": "1 (Organic & Earthy)",
+  "vibe": "Warm, trustworthy, book-loving, local Indian aesthetic, letterpress/paper inspired",
+  "colors": {
+    "background": {
+      "primary": "bg-[#FDFBF7]",
+      "secondary": "bg-[#F3EFE7]",
+      "card": "bg-white",
+      "header": "bg-[#FDFBF7]"
+    },
+    "text": {
+      "primary": "text-[#2D2824]",
+      "secondary": "text-[#5C5346]",
+      "accent": "text-[#A64B2A]"
+    },
+    "accent": {
+      "primary": "bg-[#A64B2A]",
+      "hover": "bg-[#8A3D21]",
+      "border": "border-[#E8E1D5]"
+    },
+    "whatsapp_cta": {
+      "bg": "bg-[#25D366]",
+      "text": "text-white"
+    }
+  },
+  "typography": {
+    "headings": {
+      "fontFamily": "font-serif",
+      "googleFont": "Cormorant Garamond",
+      "h1": "text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-none text-[#2D2824]",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl tracking-tight text-[#2D2824]",
+      "h3": "text-xl sm:text-2xl tracking-tight text-[#2D2824]"
+    },
+    "body": {
+      "fontFamily": "font-sans",
+      "googleFont": "Work Sans",
+      "base": "text-base leading-relaxed text-[#2D2824]",
+      "small": "text-sm text-[#5C5346]"
+    }
+  },
+  "layout": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "spacing": "gap-8 lg:gap-12",
+    "section_padding": "py-16 md:py-24",
+    "borders": "border border-[#E8E1D5]",
+    "radius": "rounded-none"
+  },
+  "components": {
+    "header": {
+      "style": "bg-[#FDFBF7] sticky top-0 z-50 border-b border-[#E8E1D5]",
+      "logo": "font-serif text-3xl font-bold tracking-tight text-[#A64B2A] uppercase"
+    },
+    "hero": {
+      "layout": "grid grid-cols-1 lg:grid-cols-2 gap-0 border-b border-[#E8E1D5]",
+      "text_side": "p-8 md:p-16 lg:p-24 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-[#E8E1D5] bg-[#FDFBF7]",
+      "image_side": "relative w-full h-[50vh] lg:h-auto min-h-[400px]",
+      "badge": "uppercase tracking-[0.2em] text-xs font-bold text-[#A64B2A] mb-4 block"
+    },
+    "product_card": {
+      "style": "group relative flex flex-col bg-white border border-[#E8E1D5] hover:border-[#A64B2A] transition-colors rounded-none",
+      "image_container": "relative aspect-[4/5] overflow-hidden border-b border-[#E8E1D5] bg-[#F3EFE7]",
+      "content": "p-4 sm:p-6 flex flex-col flex-grow",
+      "title": "font-serif text-lg font-bold line-clamp-2 mb-2 text-[#2D2824]",
+      "price": "font-sans font-medium text-[#A64B2A] mt-auto",
+      "add_button": "mt-4 w-full border border-[#2D2824] bg-transparent text-[#2D2824] hover:bg-[#2D2824] hover:text-white py-2 px-4 transition-colors uppercase tracking-wider text-xs font-bold"
+    },
+    "cart_drawer": {
+      "style": "bg-[#FDFBF7] border-l border-[#E8E1D5]",
+      "header": "border-b border-[#E8E1D5] p-6",
+      "item": "flex gap-4 py-6 border-b border-[#E8E1D5]",
+      "checkout_btn": "w-full bg-[#A64B2A] text-white py-4 font-bold tracking-wider uppercase hover:bg-[#8A3D21] transition-colors"
+    },
+    "whatsapp_button": {
+      "style": "fixed bottom-6 right-6 bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:-translate-y-1 transition-transform z-50 flex items-center gap-2"
+    },
+    "dashboard": {
+      "layout": "grid grid-cols-1 md:grid-cols-4 gap-6",
+      "sidebar": "col-span-1 border-r border-[#E8E1D5] pr-6",
+      "content": "col-span-3",
+      "table": "w-full text-left border-collapse",
+      "th": "border-b border-[#E8E1D5] p-4 font-serif text-[#5C5346]",
+      "td": "border-b border-[#E8E1D5] p-4 text-sm"
+    }
+  },
+  "icons_library": "lucide-react",
+  "images": [
+    {
+      "category": "hero",
+      "url": "https://images.pexels.com/photos/4463873/pexels-photo-4463873.jpeg",
+      "description": "Cozy bookstore interior, side view of concentrated male reading near bookshelves",
+      "usage": "Main hero image on landing page"
+    },
+    {
+      "category": "hero_alternate",
+      "url": "https://images.pexels.com/photos/29749809/pexels-photo-29749809.jpeg",
+      "description": "Warm and inviting library corner with plush seating",
+      "usage": "About section or secondary hero image"
+    },
+    {
+      "category": "product_stationery_1",
+      "url": "https://images.unsplash.com/photo-1591195852468-03a01d1375d6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODd8MHwxfHNlYXJjaHwzfHxzdGF0aW9uZXJ5JTIwZmxhdGxheSUyMG5vdGVib29rJTIwcGVufGVufDB8fHx8MTc4MjA3MDUyN3ww&ixlib=rb-4.1.0&q=85",
+      "description": "white book with blue pen",
+      "usage": "Notebooks/Pens category image or product placeholder"
+    },
+    {
+      "category": "product_stationery_2",
+      "url": "https://images.unsplash.com/photo-1623697899811-f2403f50685e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODd8MHwxfHNlYXJjaHw0fHxzdGF0aW9uZXJ5JTIwZmxhdGxheSUyMG5vdGVib29rJTIwcGVufGVufDB8fHx8MTc4MjA3MDUyN3ww&ixlib=rb-4.1.0&q=85",
+      "description": "white spiral notebook beside orange pen",
+      "usage": "Office supplies category image"
+    },
+    {
+      "category": "product_stationery_3",
+      "url": "https://images.pexels.com/photos/7657377/pexels-photo-7657377.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Flat lay of stationery including notebooks, pens, scissors, and stamps",
+      "usage": "Art Supplies / School Supplies category image"
+    }
+  ],
+  "accessibility": {
+    "contrast": "Ensure text has at least 4.5:1 contrast ratio against backgrounds.",
+    "focus": "focus:ring-2 focus:ring-[#A64B2A] focus:outline-none focus:ring-offset-2 focus:ring-offset-[#FDFBF7]",
+    "test_ids": "All interactive elements MUST include data-testid attribute (e.g. data-testid=\"add-to-cart-button\")"
+  },
+  "instructions_to_main_agent": [
+    "You have .js files not .tsx file, so share the guideline for .js files not for .tsx files.",
+    "Install fonts 'Cormorant Garamond' and 'Work Sans' from Google Fonts and configure them in tailwind.config.js.",
+    "Do NOT use Shadcn Card components for the product grids. Build them with pure HTML/Tailwind as specified (sharp borders, no rounded corners, editorial grid layout) to maintain the print aesthetic.",
+    "For the dashboard, you can use Shadcn components (table, dialog, etc.), but MUST override border radii to `rounded-none` and border colors to `#E8E1D5` to match the brand.",
+    "Use 'lucide-react' for icons.",
+    "Implement a prominent floating WhatsApp button for direct order inquiries.",
+    "Ensure all buttons have hover states that change text and background colors clearly, maintaining contrast.",
+    "Do not use generic placeholder images like via.placeholder.com. Use the provided Unsplash/Pexels URLs for categories and products."
+  ]
+}
